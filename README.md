@@ -4,7 +4,7 @@
 
 ## About Me
 
-Backend developer with experience designing and building microservices using **Golang** and **Java**. Knowledge and experience in frontend (**Angular**, **Vue.js**) for full-stack development. Hands-on experience with **Docker** and **CI/CD** in high-availability environments.
+Soy ese dev que disfruta romperse la cabeza con microservicios 🔧. También me defiendo en el frontend (sí, puedo centrar un div 😎). Fan de **Docker** 🐳. Entusiasta de aprender cosas nuevas, siempre con algún side project o tutorial en la mira 🚀. Actualmente sufriendo... digo, cursando Ingeniería en Sistemas en la UTN 📚💀.
 
 ## Tech Stack
 
@@ -26,30 +26,6 @@ Backend developer with experience designing and building microservices using **G
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-239120?style=flat&logo=githubactions&logoColor=white)
 
-## Experience
-
-### Mercado Libre — Backend Developer
-*Sep 2022 – Present*
-- Building and maintaining Go-based microservices for shipping booking flows
-- Designing REST endpoints and inter-service integrations
-- Working with Docker and CI/CD pipelines
-
-### Fulljaus — Backend Developer
-*Mar 2021 – Sep 2022*
-- Developed microservices for e-commerce integrations (Ruby on Rails, MongoDB)
-- Built APIs to synchronize stock and catalog across marketplaces and ERPs
-
-### Scm Dev — Frontend Developer
-*May 2020 – Mar 2021*
-- Built UI components for medical software using Angular
-- Integrated frontend with Node.js APIs
-
-## Education
-
-🎓 **Information Systems Engineering** — National Technological University (UTN) *(2020 – Present)*
-
-🎓 **Computer Technician** — Technical School M.S. de Thompson *(2014 – 2019)*
-
 ## Contact
 
 [![Email](https://img.shields.io/badge/Email-nachoberaza@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:nachoberaza@gmail.com)
@@ -58,4 +34,4 @@ Backend developer with experience designing and building microservices using **G
 
 ---
 
-📍 Buenos Aires (CABA), Argentina | 🌐 Spanish (Native) • English (B1)
+📍 Buenos Aires (CABA), Argentina
