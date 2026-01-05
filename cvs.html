@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Ignacio Martinez Beraza — CV (Visual + ATS)</title>
+<style>
+  :root{ --accent:#0B5FFF; --text:#1f2328; --muted:#5b6168; --line:#e6e8eb; --bg:#ffffff; }
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; background:#fff; color:var(--text); font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif; }
+  h1,h2,h3{ margin:0 0 8px; }
+  h1{ font-size:26px; letter-spacing:.2px; }
+  h2{ font-size:12px; text-transform:uppercase; letter-spacing:.08em; color:var(--accent); }
+  h3{ font-size:15px; }
+  p{ margin:0 0 8px; color:var(--muted); }
+  ul{ margin:6px 0 12px 18px; padding:0; }
+  li{ margin:4px 0; }
+  a{ color:var(--text); text-decoration:none; border-bottom:1px dotted var(--muted); }
+  .muted{ color:var(--muted); }
+  .chip{ display:inline-block; padding:3px 8px; border:1px solid var(--line); border-radius:6px; margin:4px 6px 0 0; font-size:12px; }
+  .strong{ font-weight:600; }
+  .row{ display:flex; gap:18px; }
+  .col{ flex:1; }
+  .divider{ height:1px; background:var(--line); margin:12px 0; }
+  .pill{ color:#fff; background:var(--accent); padding:2px 8px; border-radius:999px; font-size:12px; }
+  .page{ width:210mm; min-height:297mm; margin:0 auto; padding:16mm 16mm; background:var(--bg); }
+  .page + .page{ page-break-before:always; }
+  .small{ font-size:12px; }
+  .visual-grid{ display:grid; grid-template-columns: 30% 1fr; gap:18px; }
+  .side{ border-right:1px solid var(--line); padding-right:18px; }
+  .photo-wrap{ width:100%; aspect-ratio:1/1; border-radius:12px; overflow:hidden; border:1px solid var(--line); background:#f7f8fa; display:flex; align-items:center; justify-content:center; }
+  .photo-wrap img{ width:100%; height:100%; object-fit:cover; }
+  .contact p{ margin:4px 0; }
+  .kv{ display:flex; gap:8px; align-items:center; margin:4px 0; }
+  .sec{ margin-top:12px; }
+  .job{ margin:10px 0 14px; }
+  .job h3{ margin-bottom:2px; }
+  .job .meta{ font-size:12px; color:var(--muted); margin-bottom:6px; }
+  .taglist{ margin-top:4px; }
+  .ats h1{ font-size:22px; }
+  .ats h2{ color:#111; letter-spacing:.06em; }
+  .ats .section{ margin:10px 0 14px; }
+  .stack{ margin-top:6px; }
+  .stack .chip{ border:none; background:#f1f3f5; }
+  @media print{
+    @page{ size:A4; margin:14mm; }
+    a{ border-bottom:none; }
+  }
+</style>
+</head>
+<body>
+<section class="page visual">
+  <div class="visual-grid">
+    <aside class="side">
+      <div class="photo-wrap" title="Replace with your headshot">
+        <img src="./images/profile.jpg" alt="Profile picture"/>
+      </div>
+      <div class="sec contact">
+        <h2>Contact</h2>
+        <p class="strong">Ignacio Martinez Beraza</p>
+        <p>Backend Software Engineer (Golang, JAVA, RoR) • Full‑stack Engineer (Angular, Vuejs)</p>
+        <div class="divider"></div>
+        <p>Buenos Aires (CABA), Argentina</p>
+        <p>Phone: +54 (11) 2166-5742</p>
+        <p>Email: <a href="mailto:nachoberaza@gmail.com">nachoberaza@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/ignacio-mart%C3%ADnez-beraza/">@Ignacio Martinez Beraza</a></p>
+        <p>GitHub: <a href="https://github.com/nachoberaza">@nachoberaza</a></p>
+      </div>
+      <div class="sec">
+        <h2>Core Skills</h2>
+        <div class="chip">Golang</div>
+        <div class="chip">Ruby on Rails</div>
+        <div class="chip">Node.js</div>
+        <div class="chip">MongoDB</div>
+        <div class="chip">MySQL</div>
+        <div class="chip">Angular</div>
+        <div class="chip">Vuejs</div>
+        <div class="chip">Java</div>
+        <div class="chip">Microservices</div>
+      </div>
+      <div class="sec">
+        <h2>Tooling</h2>
+        <div class="chip">Docker</div>
+        <div class="chip">CI/CD</div>
+        <div class="chip">Unit/Integration tests</div>
+      </div>
+      <div class="sec">
+        <h2>Languages</h2>
+        <p>Spanish: Native</p>
+        <p>English: B1 (Intermediate)</p>
+      </div>
+    </aside>
+    <main>
+      <header>
+        <h1>Ignacio Martinez Beraza</h1>
+        <p class="muted">Backend developer with experience designing and building microservices using Golang and Java.
+            <br>Knowledge and experience in frontend (Angular, Vuejs) for full‑stack development.
+            <br>Hands‑on experience with Docker and CI/CD in high‑availability environments.</p>
+      </header>
+      <section class="sec">
+        <h2>Experience</h2>
+        <div class="job">
+          <h3>Backend Developer — Mercado Libre</h3>
+          <div class="meta">Buenos Aires (CABA), Argentina — Sep 2022 – Present — Golang</div>
+          <ul>
+            <li>Build and maintain Go‑based microservices to manage shipping booking flows from inbound package data.</li>
+            <li>Design business logic and REST endpoints; orchestrate validations and inter‑service integrations.</li>
+            <li>Improve reliability and performance via observability and iterative refactors.</li>
+            <li>Use Docker and CI/CD to standardize build, test, and deployment processes.</li>
+          </ul>
+          <div class="taglist">
+            <span class="chip">Go</span><span class="chip">Microservices</span><span class="chip">REST</span><span class="chip">Docker</span><span class="chip">CI/CD</span>
+          </div>
+        </div>
+        <div class="job">
+          <h3>Backend Developer — Fulljaus</h3>
+          <div class="meta">Buenos Aires (CABA), Argentina — Mar 2021 – Sep 2022 — Ruby on Rails, MongoDB</div>
+          <ul>
+            <li>Developed microservices for e‑commerce integrations with marketplaces and ERPs (listings, inventory).</li>
+            <li>Modeled data in MongoDB; built APIs to synchronize stock and catalog across systems.</li>
+            <li>Automated background jobs for updates and reconciliation; monitored data consistency.</li>
+            <li>Leveraged Docker and CI/CD for faster, safer releases.</li>
+          </ul>
+          <div class="taglist">
+            <span class="chip">Ruby on Rails</span><span class="chip">MongoDB</span><span class="chip">APIs</span><span class="chip">E‑commerce</span><span class="chip">Docker</span><span class="chip">CI/CD</span>
+          </div>
+        </div>
+        <div class="job">
+          <h3>Front‑end Developer — Scm Dev</h3>
+          <div class="meta">Buenos Aires (CABA), Argentina — May 2020 – Mar 2021 — Angular, Node.js</div>
+          <ul>
+            <li>Built UI for medical software to visualize patients, doctors, and test results.</li>
+            <li>Implemented reusable components, validation, filtering, and pagination; integrated with Node.js APIs.</li>
+          </ul>
+          <div class="taglist">
+            <span class="chip">Angular</span><span class="chip">UI</span>
+          </div>
+        </div>
+      </section>
+      <section class="sec">
+        <h2>Education</h2>
+        <p><span class="strong">National Technological University (UTN)</span> — Information Systems Engineering — Mar 2020 – Present</p>
+        <p><span class="strong">Technical School M.S. de Thompson</span> — Computer Technician — Mar 2014 – Dec 2019</p>
+      </section>
+    </main>
+  </div>
+</section>
+<section class="page ats">
+  <header>
+    <h1>Ignacio Martinez Beraza</h1>
+    <p class="muted">Backend Software Engineer (Golang, JAVA, RoR) • Full‑stack Engineer (Angular, Vuejs)</p>
+    <p>Buenos Aires (CABA), Argentina • Phone: +54 (11) 2166-5742 • Email: <a href="mailto:nachoberaza@gmail.com">nachoberaza@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/ignacio-mart%C3%ADnez-beraza/">@Ignacio Martinez Beraza</a> • GitHub: <a href="https://github.com/nachoberaza">@nachoberaza</a></p>
+    <div class="divider"></div>
+  </header>
+  <section class="section">
+    <h2>Professional Summary</h2>
+    <p>Backend developer with experience designing and building microservices using Golang and Java. Knowledge and experience in frontend (Angular, Vuejs) for full‑stack development. Hands‑on experience with Docker and CI/CD in high‑availability environments. Spanish native speaker; English B1.</p>
+  </section>
+  <section class="section">
+    <h2>Technical Skills</h2>
+    <div class="stack">
+      <span class="chip">Golang</span><span class="chip">Ruby on Rails</span><span class="chip">Node.js</span><span class="chip">Java</span>
+      <span class="chip">MongoDB</span><span class="chip">MySQL</span>
+      <span class="chip">Angular</span><span class="chip">Vuejs</span>
+      <span class="chip">Microservices</span>
+      <span class="chip">Docker</span><span class="chip">CI/CD</span>
+    </div>
+  </section>
+  <section class="section">
+    <h2>Experience</h2>
+    <p class="strong">Mercado Libre — Backend Developer (Golang)</p>
+    <p class="muted">Buenos Aires (CABA), Argentina — Sep 2022 – Present</p>
+    <ul>
+      <li>Developed Go microservices to manage shipping bookings from inbound package data.</li>
+      <li>Designed endpoints, business rules, and inter‑service integrations.</li>
+      <li>Employed Docker and CI/CD for reliable builds and deployments.</li>
+    </ul>
+    <p class="strong">Fulljaus — Backend Developer (Ruby on Rails, MongoDB)</p>
+    <p class="muted">Buenos Aires (CABA), Argentina — Mar 2021 – Sep 2022</p>
+    <ul>
+      <li>Built Rails + MongoDB microservices for marketplace and ERP integrations (listings, inventory).</li>
+      <li>Implemented synchronization of stock/catalog and automated background processing.</li>
+      <li>Used Docker and CI/CD to improve release velocity and stability.</li>
+    </ul>
+    <p class="strong">Scm Dev — Front‑end Developer (Angular, Node.js)</p>
+    <p class="muted">Buenos Aires (CABA), Argentina — May 2020 – Mar 2021</p>
+    <ul>
+      <li>Delivered UI components, forms, and data views for medical software; integrated with Node.js APIs.</li>
+    </ul>
+  </section>
+  <section class="section">
+    <h2>Education</h2>
+    <p><span class="strong">National Technological University (UTN)</span> — Information Systems Engineering — Mar 2020 – Present</p>
+    <p><span class="strong">Technical School M.S. de Thompson</span> — Computer Technician — Mar 2014 – Dec 2019</p>
+  </section>
+  <section class="section">
+    <h2>Languages</h2>
+    <p>Spanish (Native), English (B1)</p>
+  </section>
+  <section class="section">
+    <h2>Keywords</h2>
+    <p>Go, Golang, Java, Ruby on Rails, Node.js, Microservices, MongoDB, MySQL, Docker, CI/CD, ERP, Listings, Inventory, Shipping, Logistics, Angular, Vuejs</p>
+  </section>
+</section>
+</body>
+</html>
